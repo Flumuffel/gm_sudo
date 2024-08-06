@@ -1,6 +1,7 @@
 name: Create Moonscript Release
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - '*'
